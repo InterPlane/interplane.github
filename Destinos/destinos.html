@@ -35,19 +35,19 @@
         </div>
     </header>
     <div class="conteudo">
-        
+
         <aside>
             <div class="slide_menu">
                 <button class="aside_menu" type="button" onclick="inicial()">
                     <img src="..\imagens\Home.png" alt="home" id="casa">
                     <p class="aside_text">Página inicial</p>
                 </button>
-        
+
                 <button class="aside_menu" type="button" onclick="myProfile()">
                     <img src="..\imagens\Login.png" alt="login" id="in">
                     <p class="aside_text">Meu perfil</p>
                 </button>
-        
+
                 <button class="aside_menu" type="button" onclick="logout()">
                     <img src="..\imagens\Logout.png" alt="exit" id="out">
                     <p class="aside_text">Sair da conta</p>
@@ -57,11 +57,11 @@
 
         <div class="content">
             <h2 class="destinos">Aprenda um idioma novo</h2>
-        
+
             <div class="column-wrapper">
                 <div class="country-column">
                     <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                        <div class="rectangle">
+                        <div class="retangulo">
                             <img src="..\imagens\inglaterra.png" alt="Inglaterra" class="country-image"
                                 onclick="toggleDescription(this)">
                             <div class="country-details">
@@ -69,17 +69,13 @@
                                     <h3>Inglaterra</h3>
                                     <p>Idioma Principal: Inglês</p>
                                 </div>
-                                <div class="description" style="display: none;">
-                                    <p>Descrição do país e pontos turísticos.</p>
-                                </div>
                                 <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                             </div>
-                            <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
                         </div>
                     </div>
 
                     <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                        <div class="rectangle">
+                        <div class="retangulo">
                             <img src="..\imagens\japão.jpeg" alt="Japão" class="country-image"
                                 onclick="toggleDescription(this)">
                             <div class="country-details">
@@ -87,100 +83,73 @@
                                     <h3>Japão</h3>
                                     <p>Idioma Principal: Japonês</p>
                                 </div>
-                                <div class="description" style="display: none;">
-                                    <p>Descrição do país e pontos turísticos.</p>
+                                <button class="eu-quero-button" style="display: none;">EU QUERO</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                        <div class="retangulo">
+                            <img src="..\imagens\coreia_do_sul.png" alt="Coréia do Sul" class="country-image"
+                                onclick="toggleDescription(this)">
+                            <div class="country-details">
+                                <div class="details-content">
+                                    <h3>Coréia do Sul</h3>
+                                    <p>Idioma Principal: Coreano</p>
                                 </div>
                                 <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                             </div>
-                            <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
                         </div>
                     </div>
                 </div>
 
-                <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                    <div class="rectangle">
-                        <img src="..\imagens\coreia_do_sul.png" alt="Coréia do Sul" class="country-image"
-                            onclick="toggleDescription(this)">
-                        <div class="country-details">
-                            <div class="details-content">
-                                <h3>Coréia do Sul</h3>
-                                <p>Idioma Principal: Coreano</p>
+                <div class="country-column">
+                    <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                        <div class="retangulo">
+                            <img src="..\imagens\frança.png" alt="França" class="country-image"
+                                onclick="toggleDescription(this)">
+                            <div class="country-details">
+                                <div class="details-content">
+                                    <h3>França</h3>
+                                    <p>Idioma Principal: Francês</p>
+                                </div>
+                                <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                             </div>
-                            <div class="description" style="display: none;">
-                                <p>Descrição do país e pontos turísticos.</p>
-                            </div>
-                            <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                         </div>
-                        <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
                     </div>
-                </div>
 
-
-            <div class="country-column">
-                <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                    <div class="rectangle">
-                        <img src="..\imagens\frança.png" alt="França" class="country-image"
-                            onclick="toggleDescription(this)">
-                        <div class="country-details">
-                            <div class="details-content">
-                                <h3>França</h3>
-                                <p>Idioma Principal: Francês</p>
+                    <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                        <div class="retangulo">
+                            <img src="..\imagens\grécia.png" alt="Grécia" class="country-image"
+                                onclick="toggleDescription(this)">
+                            <div class="country-details">
+                                <div class="details-content">
+                                    <h3>Grécia</h3>
+                                    <p>Idioma Principal: Grego</p>
+                                </div>
+                                <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                             </div>
-                            <div class="description" style="display: none;">
-                                <p>Descrição do país e pontos turísticos.</p>
-                            </div>
-                            <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                         </div>
-                        <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
                     </div>
-                </div>
 
-                <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                    <div class="rectangle">
-                        <img src="..\imagens\grécia.png" alt="Grécia" class="country-image"
-                            onclick="toggleDescription(this)">
-                        <div class="country-details">
-                            <div class="details-content">
-                                <h3>Grécia</h3>
-                                <p>Idioma Principal: Grego</p>
+                    <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                        <div class="retangulo">
+                            <img src="..\imagens\espanha.png" alt="Espanha" class="country-image"
+                                onclick="toggleDescription(this)">
+                            <div class="country-details">
+                                <div class="details-content">
+                                    <h3>Espanha</h3>
+                                    <p>Idioma Principal: Espanhol</p>
+                                </div>
+                                <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                             </div>
-                            <div class="description" style="display: none;">
-                                <p>Descrição do país e pontos turísticos.</p>
-                            </div>
-                            <button class="eu-quero-button" style="display: none;">EU QUERO</button>
                         </div>
-                        <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
-                    </div>
-                </div>
-
-                <div class="country-box" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
-                    <div class="rectangle">
-                        <img src="..\imagens\espanha.png" alt="Espanha" class="country-image"
-                            onclick="toggleDescription(this)">
-                        <div class="country-details">
-                            <div class="details-content">
-                                <h3>Espanha</h3>
-                                <p>Idioma Principal: Espanhol</p>
-                            </div>
-                            <div class="description" style="display: none;">
-                                <p>Descrição do país e pontos turísticos.</p>
-                            </div>
-                            <button class="eu-quero-button" style="display: none;">EU QUERO</button>
-                        </div>
-                        <img src="..\imagens\Chapeu.png" alt="Chapéu" class="hat-image">
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </div>
     <script>
-        function toggleDescription(element) {
-            const description = element.querySelector('.description');
-            description.style.display = description.style.display === 'none' ? 'block' : 'none';
-            element.style.transform = element.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)';
-        }
-
         function showDetails(element) {
             const details = element.querySelector('.country-details');
             const button = element.querySelector('.eu-quero-button');
@@ -197,4 +166,5 @@
     </script>
 </body>
 <script src="..\link_páginas\links.js"></script>
+
 </html>

@@ -1,14 +1,15 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     height: 15vh;
     background-color: #00101e;
 }
-.menuprincipal{
+
+.menuprincipal {
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
@@ -18,7 +19,7 @@ header{
     padding-right: 2%;
 }
 
-.signup{
+.signup {
     background: local;
     border: none;
     color: white;
@@ -26,7 +27,7 @@ header{
     height: 20%;
 }
 
-.signin{
+.signin {
     border: 3px solid white;
     border-radius: 30px;
     background: local;
@@ -35,17 +36,16 @@ header{
     height: 70%;
 }
 
-
-.conteudo{
-    height: 145vh;
+.conteudo {
+    height: auto;
     width: 100%;
     background: linear-gradient(#00101e, #0d504a) no-repeat;
     display: flex;
     justify-content: center;
 }
 
-.tudo{
-    display:flex;
+.tudo {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 90%;
@@ -58,14 +58,18 @@ header{
     height: 50%;
     display: flex;
     flex-direction: row;
-}
-.logo img{
-    padding-top: 10%;
-    width:100%;
-    height: 90%;
+    align-items: center;
 }
 
-.miolo{
+.logo img {
+    padding-top: 10%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.miolo {
     display: flex;
     width: 50%;
     height: 50%;
@@ -74,39 +78,102 @@ header{
     justify-content: center;
     padding-top: 8%;
 }
-.titulo{
+
+.titulo {
     font-size: 50px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.text{
+
+.text {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.caixa{
-    width: 80%;
-    height: 40%;
+.caixa {
+    width: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     color: rgb(102, 100, 100);
     justify-items: center;
     background-color: white;
     border-radius: 50px;
+    padding-bottom: 20px;
 }
 
-.caixa img{
+.caixa img {
     width: 100%;
-    height: 50%;
+    height: auto;
+    max-width: 100%;
 }
 
-.caixa div{
+.caixa div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2%;
 }
 
-.caixa p{
+.caixa p {
     margin-bottom: 5;
+}
+
+@media only screen and (max-width: 600px) {
+    .tudo {
+        width: 80%;
+    }
+
+    .logo{
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .caixa img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .miolo {
+        width: 80%;
+        padding: 3%;
+    }
+
+    .titulo {
+        font-size: 5vw;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
+
+    .caixa {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .caixa p {
+        margin-bottom: 6px;
+    }
+
+    .signup {
+        width: 40%;
+        height: 15%;
+    }
+
+    .signin {
+        width: 20%;
+        height: 60%;
+    }
+
+    .conteudo {
+        height: 200vh;
+    }
 }

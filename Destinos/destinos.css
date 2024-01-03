@@ -1,249 +1,139 @@
-@media (min-width: 1020px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    
-    /* Painel de controle */
-    header{
-        background-color: #001e19;
-        border-bottom: 3px solid white;
-        width: 100%;
-        height: 13vh;
-        display:flex;
-        justify-content:space-between;
-        align-items: center;
-        justify-items: center;
-        padding-right: 5%;
-    }
-    #logo{
-        width: 105px;
-        height: 100px;
-    
-    }
-    .painel{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
-        height: 40%;
-    }
-    .topmenu{
-        width: 15%;
-        height: 95%;
-        background-color: #000e19;
-        color: white;
-        font-style: italic;
-        font-weight: 700;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
-        font-size: 15px;
-        transition: 0.2s
-    }
-    .topmenu:hover{
-        text-decoration: underline;
-        width: 18%;
-        height: 100%;
-        font-size: 17px;
-        transition: 0.2s
-    }
-    .conteudo{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    
-    /* Barra lateral */
-    aside{
-        height: 87vh;
-        width: 7%;
-        background-color: #FA4848;
-        display: flex;
-        align-items: center;
-        transition: 0.2s;
-    }
-    aside:hover{
-        width: 22%;
-        transition: 0.2s;
-        .aside_text{display:flex};
-        .aside_text{font-size: 25px}
-    }
-    
-    .slide_menu{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding-left: 7%;
-        height: 90%;
-        width: 100%;
-    }
-    .aside_menu{
-        width: 90%;
-        height: 100px;
-        background-color: #FA4848;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .aside_menu img{
-        width: 90px;
-        height: 65%
-    }
-    .aside_text{
-        display:none;
-        color: white;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
-        font-weight: 530;
-    }
-    
-    /* miolo */
-    .content{
-        padding-left: 3%;
-        padding-right: 3%;
-        display: flex;
-        flex-wrap: wrap;
-        flex: 1 1 65%;
-        background-color: rgb(0, 0, 0);
-    }
-    .content h2{
-        color: #FA4848;
-        font:"Bebas Neue";
-        margin-top: 30px;
-    }
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-    
-    /* Painel de controle */
-    header{
-        background-color: #000e19;
-        border-bottom: 3px solid white;
-        width: 100%;
-        height: 14vh;
-        display:flex;
-        justify-content:space-between;
-        align-items: center;
-        justify-items: center;
-        padding-right: 5%;
-    }
-    #logo{
-        width: 105px;
-        height: 100px;
-    
-    }
-    .painel{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
-        height: 40%;
-    }
-    .topmenu{
-        width: 15%;
-        height: 95%;
-        background-color: #000e19;
-        color: white;
-        font-style: italic;
-        font-weight: 700;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
-        font-size: 15px;
-        transition: 0.2s
-    }
-    .topmenu:hover{
-        text-decoration: underline;
-        width: 18%;
-        height: 100%;
-        font-size: 17px;
-        transition: 0.2s
-    }
-    .conteudo{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    
-    /* Barra lateral */
-    aside{
-        float:right;
-        height: 86vh;
-        width: 9%;
-        background-color: #FA4848;
-        display: flex;
-        align-items: center;
-        transition: 0.2s;
-    }
-    aside:hover{
-        width: 22%;
-        transition: 0.2s;
-        .aside_text{display:flex};
-        .aside_text{font-size: 25px}
-    }
-    
-    .slide_menu{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding-left: 7%;
-        height: 90%;
-        width: 100%;
-    }
-    .aside_menu{
-        width: 90%;
-        height: 100px;
-        background-color: #FA4848;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .aside_menu img{
-        width: 90px;
-        height: 65%
-    }
-    .aside_text{
-        display:none;
-        color: white;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
-        font-weight: 530;
-    }
 
-/* miolo */
+body {
+    background-color: #011420;
+    color: white;
+    padding: 0px;
+}
 
-.content {
-    padding-left: 3%;
-    padding-right: 3%;
+/* Painel de controle */
+header {
+    background-color: #000e19;
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding-right: 5%;
+}
+
+#logo {
+    width: 105px;
+    height: 100px;
+}
+
+.painel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+}
+
+.topmenu {
+    width: 15%;
+    height: 95%;
+    background-color: #000e19;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "YALBszUSD-E 0", _fb_, auto;
+    font-size: 15px;
+    transition: 0.2s
+}
+
+.topmenu:hover {
+    text-decoration: underline;
+    width: 18%;
+    height: 100%;
+    font-size: 17px;
+    transition: 0.2s
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Barra lateral */
+aside {
+    height: 87vh;
+    width: 7%;
+    background-color: #FA4848;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+aside:hover {
+    width: 22%;
+    transition: 0.2s;
+    .aside_text {
+        display: flex
+    };
+    .aside_text {
+        font-size: 25px
+    };
+}
+
+.slide_menu {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 7%;
+    height: 90%;
+    width: 100%;
+}
+
+.aside_menu {
+    width: 90%;
+    height: 100px;
+    background-color: #FA4848;
+    display: flex;
+    align-items: center;
+}
+
+.aside_menu img {
+    width: 90px;
+    height: 65%
+}
+
+.aside_text {
+    display: none;
+    color: white;
+    font-family: "YALBszUSD-E 0", _fb_, auto;
+    font-weight: 530;
+}
+
+/* Conteúdo */
+.content {
+    padding: 35px;
 }
 
 .column-wrapper {
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .country-column {
-    width: 48%;
-}
-
-.rectangle {
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
+    margin-right: 0px;
+    flex: 1;
+    width: 60%;
 }
 
 .country-box {
     display: flex;
     flex: 1 1 200px;
-    width: 48%;
-    height: 48%;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    height: 65%;
     overflow: hidden;
     position: relative;
     transition: transform 0.3s;
@@ -253,38 +143,33 @@
     transform: scale(1.1);
 }
 
+.retangulo {
+    position: relative;
+}
+
+.country-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .country-image {
-    width: 40%;
+    width: 60%;
     float: left;
     margin-right: 10px;
     cursor: pointer;
 }
 
-.country-details {
-    overflow: hidden;
-    transition: height 0.3s;
-}
-
-.details-content {
-    float: left;
-    width: 60%;
-    color: white;
-}
-
-.description {
-    clear: both;
-    margin-top: 10px;
-}
-
 .eu-quero-button {
-    width: 80%;
+    width: 100%;
+    height: 15%;
     margin-top: 10px;
     display: none;
     border-radius: 25px;
     border: 3px solid #FA4848;
     background-color: #FA4848;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.3s;
 }
 
@@ -295,30 +180,6 @@
     transition: 0.3s;
 }
 
-.hat-image {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translate(0, -50%);
-}
-    @media (max-width: 1020px) {
-        .eu-quero-button {
-            width: 80%;
-            left: 10%;
-        }
-    }
+@media screen {
     
-    /* até 1024px */
-@media (max-width: 1020px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    body{
-        position: relative;
-    }
 }

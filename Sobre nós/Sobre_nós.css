@@ -37,7 +37,7 @@
         color: white;
         font-style: italic;
         font-weight: 700;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-family: "YALBszUSD-E 0", fb, auto;
         font-size: 15px;
         transition: 0.2s
     }
@@ -94,7 +94,7 @@
     .aside_text{
         display:none;
         color: white;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-family: "YALBszUSD-E 0", fb, auto;
         font-weight: 530;
     }
     
@@ -147,7 +147,7 @@
         color: white;
         font-style: italic;
         font-weight: 700;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-family: "YALBszUSD-E 0", fb, auto;
         font-size: 7px;
         transition: 0.2s;
         justify-content: space-around;
@@ -162,7 +162,7 @@
         }
         
     
-}    
+}
     /* Painel de controle */
     header{
         background-color: #000e19;
@@ -194,7 +194,7 @@
         color: white;
         font-style: italic;
         font-weight: 700;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-family: "YALBszUSD-E 0", fb, auto;
         font-size: 15px;
         transition: 0.2s
     }
@@ -252,11 +252,10 @@
     .aside_text{
         display:none;
         color: white;
-        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-family: "YALBszUSD-E 0", fb, auto;
         font-weight: 530;
     }
 
-/* Imagem de fundo */
 .background-image {
     position: relative;
     overflow: hidden;
@@ -274,7 +273,6 @@
     display: block;
 }
 
-/* Texto centralizado sobre a imagem */
 .image-container {
     position: relative;
     width: fit-content;
