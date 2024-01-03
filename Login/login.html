@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="..\imagens\icon_tab.png">
+    <link rel="stylesheet" href="login.css">
+    <title>INTERPLANE - Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="img-container">
+            <img class="img" src="..\imagens\Logo.png">
+        </div>
+        <h1>Login</h1>
+        <div class="erro" style="display: none;"></div>
+        <form id="loginForm">
+          <label for="usuario"></label>
+          <input type="email" class="input" oninput="Email()" placeholder="Insira seu email"> 
+          <label for="senha"></label>
+          <input type="password" class="input" placeholder="Insira a senha" oninput="Senha()"> 
+          <button type="button" onclick="submit_data()">Entrar</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

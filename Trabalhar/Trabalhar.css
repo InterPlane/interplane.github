@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #011420;
+    color: white;
+}
+
+/* Painel de controle */
+header{
+    background-color: #000e19;
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 13vh;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    justify-items: center;
+    padding-right: 5%;
+}
+#logo{
+    width: 105px;
+    height: 100px;
+
+}
+.painel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+}
+.topmenu{
+    width: 15%;
+    height: 95%;
+    background-color: #000e19;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "YALBszUSD-E 0", _fb_, auto;
+    font-size: 15px;
+    transition: 0.2s
+}
+.topmenu:hover{
+    text-decoration: underline;
+    width: 18%;
+    height: 100%;
+    font-size: 17px;
+    transition: 0.2s
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Barra lateral */
+aside{
+    height: 87vh;
+    width: 7%;
+    background-color: #FA4848;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+aside:hover{
+    width: 22%;
+    transition: 0.2s;
+    .aside_text{display:flex};
+    .aside_text{font-size: 25px};
+}
+
+.slide_menu{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 7%;
+    height: 90%;
+    width: 100%;
+}
+.aside_menu{
+    width: 90%;
+    height: 100px;
+    background-color: #FA4848;
+    display: flex;
+    align-items: center;
+}
+.aside_menu img{
+    width: 90px;
+    height: 65%
+}
+.aside_text{
+    display:none;
+    color: white;
+    font-family: "YALBszUSD-E 0", _fb_, auto;
+    font-weight: 530;
+}
+
+.miolo{
+
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 65%;
+}
+.trabalhos{
+    margin: 2%;
+    height: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caixas{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.quadrado_verde{
+    height: 100%;
+    width: 28%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4ECDC4;
+    border: none;
+    border-radius: 30px;
+}
+.topimage{
+    height: 40%;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+}
+.texto{
+    width: 90%;
+    height: 25%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstline{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3%;
+}
+.paragraph{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.eu_quero{
+    width: 75%;
+    height: 10%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    color: white;
+    background-color: #FA4848;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition: 0.3s
+}
+.eu_quero:hover{
+    background-color: #000e19;
+    border: 3px solid #FA4848;
+    transition: 0.3s;
+}

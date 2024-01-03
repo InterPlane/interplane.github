@@ -1,0 +1,122 @@
+@media (min-width: 700px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        height: 100vh;
+        background-color: #000E19;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .container{
+        height: 80%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+        padding-bottom: 30px;
+    }
+    .caixa {
+        width:100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color:white;
+        
+    }
+    .caixa img{
+        height: 130px;
+        width:130px;
+        margin-bottom: -30px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    #form{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .campos{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .input{
+        height:20%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: none;
+        border-bottom: 1px solid #2BB2A8;
+        outline: none;
+        background-color: transparent;
+        color:white;
+        padding-left:10px;
+    }
+    .input:focus{
+        border: 1px solid #2BB2A8;
+        transition: 0.3s;
+    }
+
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder,
+    input[type="password"]::placeholder {
+    color: white;}
+
+    .menor{
+        height:20%;
+        width: 43.5%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        border: none;
+        border-bottom: 1px solid #2BB2A8;
+        outline: none;
+        background-color: transparent;
+        color:white;
+        padding-left:10px;
+    }
+    .menor:focus{
+        border: 1px solid #2BB2A8;
+        transition: 0.3s;
+    }
+    
+    .botao{
+        height:20%;
+        width: 35%;
+        border-radius: 20px;
+        background-color: #fa4848;
+        border: 3px solid white;
+        font-size: 17px;
+        color: white;
+        font-weight: bolder;
+        transition: 0.3s;
+        margin-top:20px;
+    }
+    .botao:hover{
+        background-color: #0E867D;
+        transition: 0.3s;
+    }
+}
+
+/* Mobile */
+@media (max-width: 700px){
+    .container{
+        width: 90%;
+    }
+}

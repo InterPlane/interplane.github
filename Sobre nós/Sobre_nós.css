@@ -1,0 +1,304 @@
+@media (min-width: 1020px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    /* Painel de controle */
+    header{
+        background-color: #001e19;
+        border-bottom: 3px solid white;
+        width: 100%;
+        height: 13vh;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        justify-items: center;
+        padding-right: 5%;
+    }
+    #logo{
+        width: 105px;
+        height: 100px;
+    
+    }
+    .painel{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 40%;
+    }
+    .topmenu{
+        width: 15%;
+        height: 95%;
+        background-color: #000e19;
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-size: 15px;
+        transition: 0.2s
+    }
+    .topmenu:hover{
+        text-decoration: underline;
+        width: 18%;
+        height: 100%;
+        font-size: 17px;
+        transition: 0.2s
+    }
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    /* Barra lateral */
+    aside{
+        height: 87vh;
+        width: 7%;
+        background-color: #FA4848;
+        display: flex;
+        align-items: center;
+        transition: 0.2s;
+    }
+    aside:hover{
+        width: 22%;
+        transition: 0.2s;
+        .aside_text{display:flex};
+        .aside_text{font-size: 25px}
+    }
+    
+    .slide_menu{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 7%;
+        height: 90%;
+        width: 100%;
+    }
+    .aside_menu{
+        width: 90%;
+        height: 100px;
+        background-color: #FA4848;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .aside_menu img{
+        width: 90px;
+        height: 65%
+    }
+    .aside_text{
+        display:none;
+        color: white;
+        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-weight: 530;
+    }
+    
+    /* miolo */
+    .content{
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 65%;
+        background-color: #011420;
+    }
+}
+@media (max-width: 1119px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        border:0;
+        
+    }
+   
+        header{
+            background-color: #001e19;
+            border-bottom: 3px solid white;
+            width: 100%;
+            height: 7vh;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            justify-items: center;
+            
+        }
+        #logo{
+            width: 80px;
+            height: 75px;
+        
+        }
+        .conteudo aside{
+            display:none;
+        }
+        .image-container img {
+            width: 150px;
+            height:auto;
+        }
+        .topmenu{
+        width: 5%;
+        height: 75%;
+        background-color: #000e19;
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-size: 7px;
+        transition: 0.2s;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        }
+        .content{
+            display:flex;
+            flex-wrap: wrap;
+            background-color: #011420;
+            padding: 3%;
+        }
+        
+    
+}    
+    /* Painel de controle */
+    header{
+        background-color: #000e19;
+        border-bottom: 3px solid white;
+        width: 100%;
+        height: 14vh;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        justify-items: center;
+        padding-right: 5%;
+    }
+    #logo{
+        width: 105px;
+        height: 100px;
+    
+    }
+    .painel{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 55%;
+        height: 40%;
+    }
+    .topmenu{
+        width: 15%;
+        height: 95%;
+        background-color: #000e19;
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-size: 15px;
+        transition: 0.2s
+    }
+    .topmenu:hover{
+        text-decoration: underline;
+        width: 18%;
+        height: 100%;
+        font-size: 17px;
+        transition: 0.2s
+    }
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    /* Barra lateral */
+    aside{
+        float:right;
+        height: 116vh;
+        width: 9%;
+        background-color: #FA4848;
+        display: flex;
+        align-items: center;
+        transition: 0.2s;
+    }
+    aside:hover{
+        width: 22%;
+        transition: 0.2s;
+        .aside_text{display:flex};
+        .aside_text{font-size: 25px}
+    }
+    
+    .slide_menu{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 7%;
+        height: 90%;
+        width: 100%;
+    }
+    .aside_menu{
+        width: 90%;
+        height: 100px;
+        background-color: #FA4848;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .aside_menu img{
+        width: 90px;
+        height: 65%
+    }
+    .aside_text{
+        display:none;
+        color: white;
+        font-family: "YALBszUSD-E 0", _fb_, auto;
+        font-weight: 530;
+    }
+
+/* Imagem de fundo */
+.background-image {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    display:flex;
+    justify-content: center;
+}
+
+.background-image img {
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+/* Texto centralizado sobre a imagem */
+.image-container {
+    position: relative;
+    width: fit-content;
+}
+
+.image-container h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background-image p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    height: fit-content;
+    margin-top: -20%;
+}

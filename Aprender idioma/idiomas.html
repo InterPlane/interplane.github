@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="idiomas.css">
+    <link rel="icon" href="..\imagens\icon_tab.png">
+    <title>INTERPLANE - Aprenda idiomas novos</title>
+</head>
+<body>
+
+    <!-- Painel de controle -->
+    <header>
+        <img src="..\imagens\Logo.png" alt="interplane_logo" id="logo">
+        <div class="painel">
+            <button class="topmenu" type="button" onclick="destinos()">
+                Destinos
+            </button>
+
+            <button class="topmenu" type="button" onclick="estudar()">
+                Estudar
+            </button>
+
+            <button class="topmenu" type="button" onclick="aprenderIdioma()">
+                Aprender Idioma
+            </button>
+
+            <button class="topmenu" type="button" onclick="trabalhar()">
+                Trabalhar
+            </button>
+
+            <button class="topmenu" type="button" onclick="sobre()">
+                Sobre nós
+            </button>
+        </div>
+    </header>
+
+    
+    <div class="conteudo">
+        <!-- Barra Lateral -->
+        <aside>
+            <div class="slide_menu">
+                <button class="aside_menu" type="button" onclick="dashboard()">
+                    <img src="..\imagens\Home.png" alt="home" id="casa">
+                    <p class="aside_text">Página inicial</p>
+                </button>
+        
+                <button class="aside_menu" type="button" onclick="cadastro()">
+                    <img src="..\imagens\Login.png" alt="login" id="in">
+                    <p class="aside_text">Meu perfil</p>
+                </button>
+        
+                <button class="aside_menu" type="button" onclick="inicial()">
+                    <img src="..\imagens\Logout.png" alt="exit" id="out">
+                    <p class="aside_text">Sair da conta</p>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Conteúdo -->
+        <div class="idiomas">
+            <h2>APRENDA UM IDIOMA NOVO</h2>
+            <div class="cursos">
+                <!-- bandeiras -->
+                <div class="bandeiras">
+                    <img src="..\imagens\ingles.jpg" alt="inglês" class="flag">
+                    <img src="..\imagens\espanha.png" alt="espanhol" class="flag">
+                    <img src="..\imagens\japão.jpeg" alt="japonês" class="flag">
+                    <img src="..\imagens\frança.png" alt="francês" class="flag">
+                </div>
+                <!-- texto -->
+                <div class="texto">
+                    <div class="palavras">
+                        <p class="titulo">INGLÊS</p> <br>
+                        <p class="linhas">O idioma mais falado do mundo</p>
+                        <p class="linhas">Duração do curso: 6 meses</p>
+                    </div>
+                    <div class="palavras">
+                       <p class="titulo">ESPANHOL</p> <br>
+                       <p class="linhas">O idioma predominante da América Latina</p>
+                       <p class="linhas">Duração do curso: 6 meses</p>
+                    </div>
+                    <div class="palavras">
+                        <p class="titulo">JAPONÊS</p> <br>
+                        <p class="linhas">Para os amantes da cultura nipônica</p>
+                        <p class="linhas">Duração do curso: 14 meses</p>
+                    </div>
+                    <div class="palavras">
+                        <p class="titulo">FRANCÊS</p> <br>
+                        <p class="linhas">Para quem sonha em dar uma volta em Paris</p>
+                        <p class="linhas">Duração do curso: 9 meses</p>
+                    </div>
+                </div>
+                <!-- botão -->
+                <div class="confirma_botao">
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                </div>
+                <!-- bandeiras -->
+                <div class="bandeiras">
+                    <img src="..\imagens\grécia.png" alt="grego" class="flag">
+                    <img src="..\imagens\coreia_do_sul.png" alt="coreano" class="flag">
+                    <img src="..\imagens\rússia.png" alt="russo" class="flag">
+                    <img src="..\imagens\alemanha.avif" alt="alemão" class="flag">
+                </div>
+                <!-- texto -->
+                <div class="texto">
+                    <div class="palavras">
+                        <p class="titulo">GREGO</p> <br>
+                        <p class="linhas">Para os fãs de mitologia</p>
+                        <p class="linhas">Duração do curso: 12 meses</p>
+                    </div>
+                    <div class="palavras">
+                        <p class="titulo">COREANO</p> <br>
+                        <p class="linhas">Para conhecer Seoul de perto</p>
+                        <p class="linhas">Duração do curso: 8 meses</p>
+                    </div>
+                    <div class="palavras">
+                        <p class="titulo">RUSSO</p> <br>
+                        <p class="linhas">Para quem curte um friozinho</p>
+                        <p class="linhas">Duração do curso: 10 meses</p>
+                    </div>
+                    <div class="palavras">
+                        <p class="titulo">ALEMÃO</p> <br>
+                        <p class="linhas">Para não se perder em Deutchland</p>
+                        <p class="linhas">Duração do curso: 10 meses</p>
+                    </div>
+                </div>
+                <!-- botão -->
+                <div class="confirma_botao">
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                    <button class="chapeu_btn">
+                        <img src="..\imagens\Chapeu.png" alt="confirmar" class="chapeu">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="..\link_páginas\links.js"></script>
+</html>

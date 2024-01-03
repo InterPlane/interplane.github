@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estudar.css">
+    <link rel="icon" href="..\imagens\icon_tab.png">
+    <title>INTERPLANE - Classes em outro país</title>
+</head>
+<body>
+        <!-- Painel de controle -->
+    <header>
+        <img src="..\imagens\Logo.png" alt="interplane_logo" id="logo">
+        <div class="painel">
+            <button class="topmenu" type="button" onclick="destinos()">
+                Destinos
+            </button>
+    
+            <button class="topmenu" type="button" onclick="estudar()">
+                Estudar
+            </button>
+    
+            <button class="topmenu" type="button" onclick="aprenderIdioma()">
+                Aprender Idioma
+            </button>
+    
+            <button class="topmenu" type="button" onclick="trabalhar()">
+                Trabalhar
+            </button>
+    
+            <button class="topmenu" type="button" onclick="sobre()">
+                Sobre nós
+            </button>
+        </div>
+    </header>
+    
+        
+    <div class="conteudo">
+        <!-- Barra Lateral -->
+        <aside>
+            <div class="slide_menu">
+                <button class="aside_menu" type="button" onclick="inicial()">
+                    <img src="..\imagens\Home.png" alt="home" id="casa">
+                    <p class="aside_text">Página inicial</p>
+                </button>
+        
+                <button class="aside_menu" type="button" onclick="myProfile()">
+                    <img src="..\imagens\Login.png" alt="login" id="in">
+                    <p class="aside_text">Meu perfil</p>
+                </button>
+        
+                <button class="aside_menu" type="button" onclick="logout()">
+                    <img src="..\imagens\Logout.png" alt="exit" id="out">
+                    <p class="aside_text">Sair da conta</p>
+                </button>
+            </div>
+        </aside>
+
+        <div class="miolo">
+            <h2 class="classes">CLASSES</h2>
+            <div class="caixas">
+                <div class="quadrado_verde">
+                    <img src="..\imagens\escola_eua.png" alt="EUA" class="topimage">
+
+                    <div class="texto">
+                        <p class="firstline">Estados Unidos</p>
+                        <p class="paragraph">lorem ipsum dolor</p>
+                        <p class="paragraph">sit amet</p>
+                    </div>
+
+                    <button class="eu_quero">EU QUERO</button>
+                </div>
+                <div class="quadrado_verde">
+                    <img src="..\imagens\escola_japao.png" alt="JPN" class="topimage">
+
+                    <div class="texto">
+                        <p class="firstline">Japão</p>
+                        <p class="paragraph">lorem ipsum dolor</p>
+                        <p class="paragraph">sit amet</p>
+                    </div>
+
+                    <button class="eu_quero">EU QUERO</button>
+                </div>
+                <div class="quadrado_verde">
+                    <img src="..\imagens\escola_alemanha.png" alt="ALE" class="topimage">
+                        
+                    <div class="texto">
+                        <p class="firstline">Alemanha</p>
+                        <p class="paragraph">lorem ipsum dolor</p>
+                         <p class="paragraph">sit amet</p>    
+                    </div>
+                        
+                    <button class="eu_quero">EU QUERO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="..\link_páginas\links.js"></script>
+</html>
