@@ -35,7 +35,7 @@ function myProfile()
 
 function logout()
 {
-    window.location.href = "../Página inicial/inicio.html"
+    window.location.href = "../Página inicial/index.html"
 }
 
 function login()
